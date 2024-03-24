@@ -4,6 +4,7 @@ import AboutMe from '../mainComp/AboutMe';
 import Skills from '../mainComp/Skills';
 import Projects from '../mainComp/Projects';
 import SourceCode from '../mainComp/SourceCode';
+import Contact from '../mainComp/Contact';
 
 function Main() {
   return (
@@ -14,6 +15,7 @@ function Main() {
       <Skills />
       <Projects />
       <SourceCode />
+      <Contact />
     </div>
   );
 }

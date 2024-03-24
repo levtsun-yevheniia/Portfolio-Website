@@ -29,7 +29,8 @@
       align-items: center;
       padding: 45px 0px 135px 350px;
       scroll-snap-type: x mandatory;
-      overflow-x: hidden;
+      overflow-x: auto;
+      scrollbar-width: none;
 
       .scroll_btn_block {
         display: flex;
@@ -193,6 +194,10 @@
         //   width: 450px;
         // }
       }
+    }
+
+    &__slider::-webkit-scrollbar {
+      display: none;
     }
   }
 }
